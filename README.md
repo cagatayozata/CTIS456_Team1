@@ -22,4 +22,4 @@ Backend and iOS projects are stored in separate repositories.
 
 ## Video
 
-The video can be downloaded from this repository or can be viewed on youtube by clicking this [link](https://youtube.com).
+The video can be downloaded from this repository or can be viewed on youtube by clicking this [link](https://www.youtube.com/watch?v=HDDGrWUzgso&feature=youtu.be).
