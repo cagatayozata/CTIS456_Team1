@@ -1,0 +1,669 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>118/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Apr 07 19:56:09 EET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>25 seconds (25747 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.AnimalRepositoryIT.ara()'><b>ara</b><br>Test class: com.team1.animalproject.integrationtest.AnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.AnimalRepositoryIT@42c3b02e</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.CinsRepositoryIT.ara()'><b>ara</b><br>Test class: com.team1.animalproject.integrationtest.CinsRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.CinsRepositoryIT@16575bfe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IlacRepositoryIT.ara()'><b>ara</b><br>Test class: com.team1.animalproject.integrationtest.IlacRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IlacRepositoryIT@3f1dadeb</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.TurRepositoryIT.ara()'><b>ara</b><br>Test class: com.team1.animalproject.integrationtest.TurRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.TurRepositoryIT@236e6563</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.AnimalRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.AnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.AnimalRepositoryIT@42c3b02e</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.BagisRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.BagisRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.BagisRepositoryIT@51039ec9</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.CinsRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.CinsRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.CinsRepositoryIT@16575bfe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.GercekKisiRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.GercekKisiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.GercekKisiRepositoryIT@60003305</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IlacRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.IlacRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IlacRepositoryIT@3f1dadeb</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IpfsIDRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.IpfsIDRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IpfsIDRepositoryIT@72259917</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT@5e81b406</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT@3ff83cc8</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.PetShopRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopRepositoryIT@6dd8ac29</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT@336b7da4</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.RolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolRepositoryIT@6019ce4b</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolYetkiRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.RolYetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolYetkiRepositoryIT@1e79b0fc</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT@36e8fefe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.ShelterRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterRepositoryIT@5e8633da</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT@70c3c5d7</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.UserRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.UserRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.UserRepositoryIT@528070fe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.VetRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.VetRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.VetRepositoryIT@3df79197</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.YetkiRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.YetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.YetkiRepositoryIT@53741683</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT@36134f3</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.ZooRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooRepositoryIT@52b7a3e1</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT.delete()'><b>delete</b><br>Test class: com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT@53cdfb09</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.BagisRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.BagisRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.BagisRepositoryIT@51039ec9</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.CinsRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.CinsRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.CinsRepositoryIT@16575bfe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.GercekKisiRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.GercekKisiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.GercekKisiRepositoryIT@60003305</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IlacRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.IlacRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IlacRepositoryIT@3f1dadeb</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IpfsIDRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.IpfsIDRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IpfsIDRepositoryIT@72259917</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT@5e81b406</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT@3ff83cc8</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.PetShopRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopRepositoryIT@6dd8ac29</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT@336b7da4</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.RolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolRepositoryIT@6019ce4b</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolYetkiRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.RolYetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolYetkiRepositoryIT@1e79b0fc</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT@36e8fefe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.ShelterRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterRepositoryIT@5e8633da</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT@70c3c5d7</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.UserRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.UserRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.UserRepositoryIT@528070fe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.VetRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.VetRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.VetRepositoryIT@3df79197</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.YetkiRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.YetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.YetkiRepositoryIT@53741683</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT@36134f3</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.ZooRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooRepositoryIT@52b7a3e1</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT.findById()'><b>findById</b><br>Test class: com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT@53cdfb09</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.AnimalRepositoryIT.findByIdIn()'><b>findByIdIn</b><br>Test class: com.team1.animalproject.integrationtest.AnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.AnimalRepositoryIT@42c3b02e</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.GercekKisiRepositoryIT.findByKimlikNo()'><b>findByKimlikNo</b><br>Test class: com.team1.animalproject.integrationtest.GercekKisiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.GercekKisiRepositoryIT@60003305</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.AnimalRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.AnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.AnimalRepositoryIT@42c3b02e</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.BagisRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.BagisRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.BagisRepositoryIT@51039ec9</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.CinsRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.CinsRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.CinsRepositoryIT@16575bfe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.GercekKisiRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.GercekKisiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.GercekKisiRepositoryIT@60003305</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IlacRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.IlacRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IlacRepositoryIT@3f1dadeb</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IpfsIDRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.IpfsIDRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IpfsIDRepositoryIT@72259917</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT@5e81b406</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT@3ff83cc8</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.PetShopRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopRepositoryIT@6dd8ac29</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT@336b7da4</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.RolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolRepositoryIT@6019ce4b</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolYetkiRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.RolYetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolYetkiRepositoryIT@1e79b0fc</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT@36e8fefe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.ShelterRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterRepositoryIT@5e8633da</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT@70c3c5d7</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.TurRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.TurRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.TurRepositoryIT@236e6563</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.UserRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.UserRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.UserRepositoryIT@528070fe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.VetRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.VetRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.VetRepositoryIT@3df79197</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.YetkiRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.YetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.YetkiRepositoryIT@53741683</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT@36134f3</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.ZooRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooRepositoryIT@52b7a3e1</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT.getAll()'><b>getAll</b><br>Test class: com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT@53cdfb09</td></tr>
+<tr>
+<td title='com.team1.animalproject.scenariotest.ScenarioIT.girisYap()'><b>girisYap</b><br>Test class: com.team1.animalproject.scenariotest.ScenarioIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.scenariotest.ScenarioIT@207e3ffd</td></tr>
+<tr>
+<td title='com.team1.animalproject.scenariotest.ScenarioIT.kayitIslemiBasariliMi()'><b>kayitIslemiBasariliMi</b><br>Test class: com.team1.animalproject.scenariotest.ScenarioIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.scenariotest.ScenarioIT@207e3ffd</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.AnimalRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.AnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.AnimalRepositoryIT@42c3b02e</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.BagisRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.BagisRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.BagisRepositoryIT@51039ec9</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.CinsRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.CinsRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.CinsRepositoryIT@16575bfe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.GercekKisiRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.GercekKisiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.GercekKisiRepositoryIT@60003305</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IlacRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.IlacRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IlacRepositoryIT@3f1dadeb</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IpfsIDRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.IpfsIDRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IpfsIDRepositoryIT@72259917</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT@5e81b406</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT@3ff83cc8</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.PetShopRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopRepositoryIT@6dd8ac29</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT@336b7da4</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.RolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolRepositoryIT@6019ce4b</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolYetkiRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.RolYetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolYetkiRepositoryIT@1e79b0fc</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT@36e8fefe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.ShelterRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterRepositoryIT@5e8633da</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT@70c3c5d7</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.TurRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.TurRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.TurRepositoryIT@236e6563</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.UserRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.UserRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.UserRepositoryIT@528070fe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.VetRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.VetRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.VetRepositoryIT@3df79197</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.YetkiRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.YetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.YetkiRepositoryIT@53741683</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT@36134f3</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.ZooRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooRepositoryIT@52b7a3e1</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT.save()'><b>save</b><br>Test class: com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT@53cdfb09</td></tr>
+<tr>
+<td title='com.team1.animalproject.scenariotest.ScenarioIT.setUp()'><b>setUp</b><br>Test class: com.team1.animalproject.scenariotest.ScenarioIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.scenariotest.ScenarioIT@207e3ffd</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.AnimalRepositoryIT.sonYediGunIcinEklenenHayvanVerileriniGetir()'><b>sonYediGunIcinEklenenHayvanVerileriniGetir</b><br>Test class: com.team1.animalproject.integrationtest.AnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.AnimalRepositoryIT@42c3b02e</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.AnimalRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.AnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.AnimalRepositoryIT@42c3b02e</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.BagisRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.BagisRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.BagisRepositoryIT@51039ec9</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.CinsRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.CinsRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.CinsRepositoryIT@16575bfe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.GercekKisiRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.GercekKisiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.GercekKisiRepositoryIT@60003305</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IlacRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.IlacRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IlacRepositoryIT@3f1dadeb</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.IpfsIDRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.IpfsIDRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.IpfsIDRepositoryIT@72259917</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.KullaniciRolRepositoryIT@5e81b406</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopAnimalRepositoryIT@3ff83cc8</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.PetShopRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopRepositoryIT@6dd8ac29</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.PetShopWorkerRepositoryIT@336b7da4</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.RolRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolRepositoryIT@6019ce4b</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.RolYetkiRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.RolYetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.RolYetkiRepositoryIT@1e79b0fc</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterAnimalRepositoryIT@36e8fefe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.ShelterRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterRepositoryIT@5e8633da</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ShelterWorkerRepositoryIT@70c3c5d7</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.UserRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.UserRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.UserRepositoryIT@528070fe</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.VetRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.VetRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.VetRepositoryIT@3df79197</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.YetkiRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.YetkiRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.YetkiRepositoryIT@53741683</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooAnimalRepositoryIT@36134f3</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.ZooRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooRepositoryIT@52b7a3e1</td></tr>
+<tr>
+<td title='com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT.update()'><b>update</b><br>Test class: com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.integrationtest.ZooWorkerRepositoryIT@53cdfb09</td></tr>
+<tr>
+<td title='com.team1.animalproject.scenariotest.ScenarioIT.userDoldur()'><b>userDoldur</b><br>Test class: com.team1.animalproject.scenariotest.ScenarioIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.scenariotest.ScenarioIT@207e3ffd</td></tr>
+<tr>
+<td title='com.team1.animalproject.scenariotest.ScenarioIT.userKaydet()'><b>userKaydet</b><br>Test class: com.team1.animalproject.scenariotest.ScenarioIT</td>
+<td></td>
+<td>0</td>
+<td>com.team1.animalproject.scenariotest.ScenarioIT@207e3ffd</td></tr>
+</table><p>
+</body>
+</html>
