@@ -18,6 +18,8 @@ Backend and iOS projects are stored in separate repositories.
 
 [AnimalCherish - iOS Repository](https://github.com/cagatayozata/AnimalCherish_iOS)
 
+*Repositories can be accessed by only authorized users.*
+
 ## Video
 
 The video can be downloaded from this repository or can be viewed on youtube by clicking this [link](https://youtube.com).
