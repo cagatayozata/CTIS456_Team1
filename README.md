@@ -10,6 +10,14 @@ Java test files are included in this repository. The test can be viewed by visit
 
 Case test files are included in this repository. The test can be viewed by visiting [this](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/CaseTests.pdf) link.
 
+## Video
+
+The video can be downloaded from this repository or can be viewed on youtube by clicking this [link](https://www.youtube.com/watch?v=HDDGrWUzgso&feature=youtu.be).
+
+## Demo
+
+Click this [link](http://138.68.67.165/) to view demo.
+
 ## Source Code
 
 Backend and iOS projects are stored in separate repositories.
@@ -20,6 +28,4 @@ Backend and iOS projects are stored in separate repositories.
 
 *Repositories can be accessed by only authorized users.*
 
-## Video
 
-The video can be downloaded from this repository or can be viewed on youtube by clicking this [link](https://www.youtube.com/watch?v=HDDGrWUzgso&feature=youtu.be).
