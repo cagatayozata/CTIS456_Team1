@@ -4,7 +4,7 @@ AnimalCherish - Blockchain Based Animal Health Record and Information System
 
 ## Video
 
-**The video can be viewed on youtube by clicking this [link](https://www.youtube.com/watch?v=HDDGrWUzgso&feature=youtu.be).**	
+**The video can be viewed on youtube by clicking this [link](https://www.youtube.com/watch?v=8Qay1PM9990).**	
 
 ## Java Tests
 
