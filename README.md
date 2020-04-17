@@ -26,6 +26,5 @@ Backend and iOS projects are stored in separate repositories.
 
 [AnimalCherish - iOS Repository](https://github.com/cagatayozata/AnimalCherish_iOS)
 
-*Repositories can be accessed by only authorized users.*
 
 
