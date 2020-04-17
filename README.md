@@ -22,7 +22,7 @@ Click this [link](http://138.68.67.165/) to view demo.
 
 Backend and iOS projects are stored in separate repositories.
 
-[AnimalCherish - Web Backend Repository](https://github.com/cagatayozata/AnimalCherish)
+[AnimalCherish - Web Backend / Frontend Repository](https://github.com/cagatayozata/AnimalCherish)
 
 [AnimalCherish - iOS Repository](https://github.com/cagatayozata/AnimalCherish_iOS)
 
