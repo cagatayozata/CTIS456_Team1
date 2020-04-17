@@ -2,7 +2,7 @@
 
 AnimalCherish - Blockchain Based Animal Health Record and Information System
 
-# Video
+## Video
 
 The video can be downloaded from this repository or can be viewed on youtube by clicking this [link](https://www.youtube.com/watch?v=HDDGrWUzgso&feature=youtu.be).
 
