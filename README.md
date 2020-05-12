@@ -4,7 +4,9 @@ AnimalCherish - Blockchain Based Animal Health Record and Information System
 
 ## Demo
 
-Click this [link](http://138.68.67.165/) to view demo.
+Click this [link](http://138.68.67.165/) to view demo. To review the application, you can register or use our demo account.
+
+*Demo Account Information - Username: muammer.sahin Password: 1234*
 
 ## Source Code
 
@@ -14,7 +16,7 @@ Backend and iOS projects are stored in separate repositories.
 
 [AnimalCherish - iOS Repository](https://github.com/cagatayozata/AnimalCherish_iOS)
 
-**The code standard of the mobile application written in Swift is provided by SwiftFormat. With the prepared configuration file, all code is compatible with this standard. The code standard of the web application written in Java is provided by Checkstyle and all code is compatible with this standard.**
+***The code standard of the mobile application written in Swift is provided by SwiftFormat. With the prepared configuration file, all code is compatible with this standard. The code standard of the web application written in Java is provided by Checkstyle and all code is compatible with this standard.***
 
 ## Poster
 
