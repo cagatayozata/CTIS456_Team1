@@ -34,7 +34,7 @@ Backend and iOS projects are stored in separate repositories.
 
 ## User's Manual
 
-User's Manual is included in this repository. It can be viewed by visiting [this](#)
+[User's Manual (PDF)](#)
 
 ## Test Cases
 
