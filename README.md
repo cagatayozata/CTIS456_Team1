@@ -24,7 +24,7 @@ Backend and iOS projects are stored in separate repositories.
 
 ## Video
 
-[Final Product Presentation Video*](#)
+[Final Product Presentation Video](#)
 
 ## Video with Advisor
 
@@ -38,9 +38,12 @@ Backend and iOS projects are stored in separate repositories.
 
 ## Test Cases and Test Reports
 
-[Case Test (PDF)](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/CaseTests.pdf) link.
+[Case Test (PDF)](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/CaseTests.pdf)
 
-[Java Test](https://cagatayozata.com/ctis/javatest) link. 
+[Java Test](https://cagatayozata.com/ctis/javatest)
+
+[Swift Test](https://github.com/cagatayozata/CTIS456_Team1/tree/master/Swift%20Test)
+
 
 
 
