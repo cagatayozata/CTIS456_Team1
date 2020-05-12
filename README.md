@@ -18,23 +18,23 @@ Backend and iOS projects are stored in separate repositories.
 
 ## Poster
 
-The **front side of poster** can be viewed by clicking this **[link]**(https://raw.githubusercontent.com/cagatayozata/CTIS456_Team1/master/Poster/Poster_On.jpg).
+The **front side of poster** can be viewed by clicking this [link](https://raw.githubusercontent.com/cagatayozata/CTIS456_Team1/master/Poster/Poster_On.jpg).
 
-The **back side of poster** can be viewed by clicking this **[link]**(#).	
+The **back side of poster** can be viewed by clicking this [link](#).	
 
 ## Video
 
-**Final Product Presentation Video** - The video can be viewed on YouTube by clicking this **[link]**(#).
+**Final Product Presentation Video** - The video can be viewed on YouTube by clicking this [link](#).
 
 ## Video with Advisor
 
-**Final Product with Advisor Video** - The video can be viewed on YouTube by clicking this **[link]**(https://www.youtube.com/watch?v=8Qay1PM9990).
+**Final Product with Advisor Video** - The video can be viewed on YouTube by clicking this [link](https://www.youtube.com/watch?v=8Qay1PM9990).
 
-**2nd Increment with Advisor Video** - The video can be viewed on YouTube by clicking this **[link]**(https://www.youtube.com/watch?v=8Qay1PM9990).
+**2nd Increment with Advisor Video** - The video can be viewed on YouTube by clicking this [link](https://www.youtube.com/watch?v=8Qay1PM9990).
 
 ## User's Manual
 
-User's Manual can be viewed by visiting **[this]**(#) link.
+User's Manual can be viewed by visiting [this](#) link.
 
 ## Test Cases
 
