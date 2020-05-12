@@ -18,31 +18,29 @@ Backend and iOS projects are stored in separate repositories.
 
 ## Poster
 
-[Front Side of Poster](https://raw.githubusercontent.com/cagatayozata/CTIS456_Team1/master/Poster/Poster_On.jpg).
+[Front Side of Poster](https://raw.githubusercontent.com/cagatayozata/CTIS456_Team1/master/Poster/Poster_On.jpg)
 
-[Back Side of Poster](#).	
+[Back Side of Poster](#)
 
 ## Video
 
-[Final Product Presentation Video*](#).
+[Final Product Presentation Video*](#)
 
 ## Video with Advisor
 
-[Final Product with Advisor Video [NEW]](https://www.youtube.com/watch?v=8Qay1PM9990).
+[Final Product with Advisor Video](https://www.youtube.com/watch?v=8Qay1PM9990)
 
-[2nd Increment with Advisor Video](https://www.youtube.com/watch?v=8Qay1PM9990).
+[2nd Increment with Advisor Video](https://www.youtube.com/watch?v=8Qay1PM9990)
 
 ## User's Manual
 
 [User's Manual (PDF)](#)
 
-## Test Cases
+## Test Cases and Test Reports
 
-Case test files are included in this repository. The test can be viewed by visiting [this](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/CaseTests.pdf) link.
+[Case Test (PDF)](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/CaseTests.pdf) link.
 
-## Java Tests
-
-Java test files are included in this repository. The test can be viewed by visiting [this](https://cagatayozata.com/ctis/javatest) link. 
+[Java Test](https://cagatayozata.com/ctis/javatest) link. 
 
 
 
