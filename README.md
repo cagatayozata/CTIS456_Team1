@@ -20,7 +20,7 @@ Backend and iOS projects are stored in separate repositories.
 
 ## Poster
 
-[Poster](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Poster/Poster.jpg)
+[Poster](https://raw.githubusercontent.com/cagatayozata/CTIS456_Team1/master/Poster/Poster.jpg)
 
 ## Video
 
