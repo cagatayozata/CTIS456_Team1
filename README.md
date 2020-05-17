@@ -40,7 +40,7 @@ Backend and iOS projects are stored in separate repositories.
 
 ### Videos
 
-[Backend and Frontend Test Case Videos](#)
+[Backend and Frontend Test Case Videos](https://www.youtube.com/watch?v=yZkmFCnwhS4)
 
 [iOS Test Case Videos](https://www.youtube.com/watch?v=3YJPb2UC62I&feature=youtu.be)
 
