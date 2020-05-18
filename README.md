@@ -54,6 +54,11 @@ Backend and iOS projects are stored in separate repositories.
 
 [Swift Test](https://github.com/cagatayozata/CTIS456_Team1/tree/master/Swift%20Test)
 
+### Technologies
+
+![Image description](https://i.ibb.co/RT9rxgr/3c210455-ce1d-430c-aa30-5d44d9b9c8d4.jpg)
+
+
 
 
 
