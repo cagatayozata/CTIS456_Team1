@@ -28,7 +28,7 @@ Backend and iOS projects are stored in separate repositories.
 
 ## Video with Advisor
 
-[Final Product with Advisor Video](#)
+[Final Product with Advisor Video](https://www.youtube.com/watch?v=DfDI3tdYhOY)
 
 [2nd Increment with Advisor Video](https://www.youtube.com/watch?v=8Qay1PM9990)
 
