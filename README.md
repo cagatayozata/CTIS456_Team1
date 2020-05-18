@@ -34,7 +34,7 @@ Backend and iOS projects are stored in separate repositories.
 
 ## User's Manual
 
-[User's Manual (PDF)](#)
+[User's Manual (PDF)](https://github.com/cagatayozata/CTIS456_Team1/blob/master/User%20Manual/AnimalCherish%20%20User%20Manual.pdf)
 
 ## Test Cases and Test Reports
 
@@ -46,7 +46,9 @@ Backend and iOS projects are stored in separate repositories.
 
 ### Documents
 
-[Case Test (PDF)](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/CaseTests.pdf)
+[Backend and Frontend Case Test (PDF)](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/BackendandFrontendCaseTests.pdf)
+
+[iOS Case Test (PDF)](https://github.com/cagatayozata/CTIS456_Team1/blob/master/Case%20Tests/iOSCaseTests.pdf)
 
 [Java Test](https://cagatayozata.com/ctis/javatest)
 
