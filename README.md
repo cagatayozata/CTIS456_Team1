@@ -4,7 +4,7 @@ AnimalCherish - Blockchain Based Animal Health Record and Information System
 
 ## Demo
 
-Click this [link](http://http://animalcherish.tk/) or [link](http://138.68.67.165/) to view demo. To review the application, you can register or use our demo account.
+Click [https://animalcherish.tk](https://animalcherish.tk) to view demo. To review the application, you can register or use our demo account.
 
 ***Demo Account Information** - **Username:** muammer.sahin **Password:** 1234*
 
