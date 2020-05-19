@@ -4,6 +4,8 @@ AnimalCherish - Blockchain Based Animal Health Record and Information System
 
 ## Demo
 
+If you are opening our website first time, you may need to reflesh the page 2-3 times to fullfil ip of our website (Dot.TK, ML Issue).
+
 Click [https://animalcherish.tk](https://animalcherish.tk) to view demo. To review the application, you can register or use our demo account.
 
 Just in case, if the url not works [click](https://138.68.67.165/) or [click](https://animalcherish.ml/) to go to website ( please allow the certificate, because url is different you can see cerfiticate error from your browser ).
